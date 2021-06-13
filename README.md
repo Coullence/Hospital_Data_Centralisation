@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Laravel7.x-Roles-Permissions-Admin-Paper-Dashboard-bootstrap4
 This is a Laravel 7.X admin panel starter project with roles-permissions management based on Spatie Laravel-permission package, Paper Dashboard Design theme and also has jquery, bootstrap 4.X, Bootstrap Data-tables.
 
@@ -26,6 +27,10 @@ Laravel 7.x version admin roles and permission project to use as a starter proje
 
 # Paper Dashboard Theme:
 [PaperDashboar - Bootstrap4 Design(Download)](https://demos.creative-tim.com/bs3/paper-dashboard/dashboard.html)
+=======
+# Hospital_Data_Centralisation
+Project on Simple Hospital Data Centralization
+>>>>>>> 59dd1cfef31d51a0cc8b3ca198ef7efbb8c92090
 =======
 # Hospital_Data_Centralisation
 Project on Simple Hospital Data Centralization
