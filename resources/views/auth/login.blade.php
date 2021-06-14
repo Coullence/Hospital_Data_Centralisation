@@ -66,8 +66,12 @@
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
+<<<<<<< HEAD
                                     </a><br>
                                     
+=======
+                                    </a>
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
                                 @endif
                             </div>
                         </div>

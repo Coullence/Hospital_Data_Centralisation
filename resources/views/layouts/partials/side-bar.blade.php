@@ -56,6 +56,7 @@
 
       @endrole
 
+<<<<<<< HEAD
       @role('doctor')
 
         
@@ -78,6 +79,8 @@
 
       @endrole
 
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
       <li {{Route::is('profile.index')? 'class=active':''}}>
         <a href="{{ route('profile.index') }}">
           <i class="nc-icon nc-circle-10"></i>

@@ -102,6 +102,7 @@
           } );
       } );
 
+<<<<<<< HEAD
 
         $(document).ready(function() {
           $('#dataTable-doctors').DataTable( {
@@ -129,6 +130,8 @@
 
 
 
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
 </script>
 
 
@@ -145,7 +148,10 @@
         //responsive: true
       });
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
   </script>
   @yield('extra-script')
 </body>
