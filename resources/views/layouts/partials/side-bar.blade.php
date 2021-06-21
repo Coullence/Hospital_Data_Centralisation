@@ -56,12 +56,20 @@
 
       @endrole
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
       @role('doctor')
 
         
 
        <li {{Route::is('permissions.index')||Route::is('permissions.create')||Route::is('permissions.edit')? 'class=active':''}}>
+<<<<<<< HEAD
               <a href="{{route('manage_patients.index')}}">
+=======
+              <a href="{{route('manage_hospitals.index')}}">
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
               <i class="nc-icon nc-bank"></i>
                   <p>Manage Patients</p>
               </a>
@@ -78,6 +86,11 @@
 
       @endrole
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
       <li {{Route::is('profile.index')? 'class=active':''}}>
         <a href="{{ route('profile.index') }}">
           <i class="nc-icon nc-circle-10"></i>

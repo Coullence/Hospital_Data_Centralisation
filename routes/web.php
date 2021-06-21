@@ -35,12 +35,15 @@ Route::group(['middleware' => ['role:admin']], function () {
     ]);    
 });
 
+<<<<<<< HEAD
 Route::group(['middleware' => ['role:doctor']], function () {
     Route::resource('manage_patients', 'Users\PatientsRecordController');
     Route::resource('patient_medical_history', 'Users\PatientHistoryController');
     
 });
 
+=======
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
 Route::group(['middleware' => ['role:user']], function () {
     
 });

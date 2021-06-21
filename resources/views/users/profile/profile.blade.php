@@ -47,6 +47,16 @@
                         @enderror
                     </div>
 
+<<<<<<< HEAD
+=======
+                    <div class="form-group ">
+                        <label class="form-label">Profile Pic</label>
+                        <input type="file" class="form-control @error('avatar') is-invalid @enderror" name="avatar" required>
+                        @error('avatar')
+                            <label id="avatar-error" class="error" for="avatar">{{ $message }}</label>
+                        @enderror
+                    </div>
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
                     <button class="btn btn-primary btn-sm" type="submit">UPDATE</button>
                 </form>
             </div>

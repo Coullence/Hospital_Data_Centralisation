@@ -102,6 +102,10 @@
           } );
       } );
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
 
         $(document).ready(function() {
           $('#dataTable-doctors').DataTable( {
@@ -129,6 +133,11 @@
 
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
 </script>
 
 
@@ -145,7 +154,14 @@
         //responsive: true
       });
     });
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> d15ab6e6de9da32b916ee9d9d7f07116ffe3263e
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
   </script>
   @yield('extra-script')
 </body>

@@ -121,6 +121,10 @@ class UsersController extends Controller
         ]);
 
         $user = User::findOrFail($id);
+<<<<<<< HEAD
+=======
+        $user->update(array_merge($request->all(),['password' => bcrypt($request->password)]));
+>>>>>>> a1d01fb8c8ea8548a05020991aed9db15afac60f
         $roles = $request->input('roles') ? $request->input('roles') : [];
         $user->syncRoles($roles);
 
